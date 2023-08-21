@@ -56,14 +56,28 @@ public class Main {
 //        }
 
 
-        // Task 5 TODO
+        // Task 5
 
-//        Scanner in = new Scanner(System.in);
-//        System.out.println("Enter 6 digit num:");
+//        Scanner scanner = new Scanner(System.in);
 //
-//        int num = in.nextInt();
-//        if (num > 1)
-
+//        System.out.print("Введите номер месяца (от 1 до 12): ");
+//        int month = scanner.nextInt();
+//
+//        if (month >= 1 && month <= 12) {
+//            String season;
+//            if (month == 1 || month == 2 || month == 12) {
+//                season = "Winter";
+//            } else if (month >= 3 && month <= 5) {
+//                season = "Spring";
+//            } else if (month >= 6 && month <= 8) {
+//                season = "Summer";
+//            } else {
+//                season = "Autumn";
+//            }
+//            System.out.println("Сезон: " + season);
+//        } else {
+//            System.out.println("Ошибка: введите номер месяца от 1 до 12");
+//        }
 
         // Task 6
 
@@ -137,6 +151,91 @@ public class Main {
 //            }
 //            System.out.println();
 //        }
+
+
+        // Task 9
+
+//        ArrayList randomArray = new ArrayList<Integer>();
+//
+//        Random random = new Random();
+//
+//        for (int i = 0; i < 20; i++) {
+//            randomArray.add(random.nextInt(-20, 20));
+//        }
+//
+//        int min = (int) randomArray.get(0);
+//        int max = (int) randomArray.get(0);
+//        int negativeNumsCount = 0;
+//        int positiveNumsCount = 0;
+//        int zeroCount = 0;
+//
+//        for (int i = 0; i < randomArray.size(); i++) {
+//            int currentIteratorValue = (int)randomArray.get(i);
+//            if (currentIteratorValue < min){
+//                min = currentIteratorValue;
+//            }
+//            if (currentIteratorValue > max)
+//            {
+//                max = currentIteratorValue;
+//            }
+//            if (currentIteratorValue < 0 ) {
+//                negativeNumsCount += 1;
+//            }
+//            if (currentIteratorValue > 0) {
+//                positiveNumsCount += 1;
+//            }
+//            if (currentIteratorValue == 0){
+//                zeroCount += 1;
+//            }
+//
+//        }
+//
+//
+//        System.out.println(randomArray);
+//        System.out.println("Min " + min);
+//        System.out.println("Max " + max);
+//        System.out.println("negativeNumsCount " + negativeNumsCount);
+//        System.out.println("positiveNumsCount " + positiveNumsCount);
+//        System.out.println("zeroCount " + zeroCount);
+
+
+        // Task 10
+
+//        ArrayList randomArray = new ArrayList<Integer>();
+//
+//        Random random = new Random();
+//
+//        for (int i = 0; i < 20; i++) {
+//            randomArray.add(random.nextInt(-20, 20));
+//        }
+//
+//        ArrayList evenNumbers = new ArrayList<Integer>();
+//        ArrayList unevenNumbers = new ArrayList<Integer>();
+//        ArrayList negativeNumbers = new ArrayList<Integer>();
+//        ArrayList positiveNumbers = new ArrayList<Integer>();
+//
+//        for (int i = 0; i < randomArray.size(); i++) {
+//            int currentIteratorValue = (int)randomArray.get(i);
+//            if (currentIteratorValue % 2 == 0){
+//                evenNumbers.add(currentIteratorValue);
+//            }
+//            else{
+//                unevenNumbers.add(currentIteratorValue);
+//            }
+//
+//            if (currentIteratorValue > 0){
+//                positiveNumbers.add(currentIteratorValue);
+//            }
+//            else {
+//                negativeNumbers.add(currentIteratorValue);
+//            }
+//        }
+//
+//        System.out.println(randomArray);
+//        System.out.println(evenNumbers);
+//        System.out.println(unevenNumbers);
+//        System.out.println(negativeNumbers);
+//        System.out.println(positiveNumbers);
 
 
         // Task 11
